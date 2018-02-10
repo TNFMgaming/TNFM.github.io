@@ -6,6 +6,38 @@ html {
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
 }
+.medium-6.columns.medium-push-6 h2 {
+    text-align: center
+}
+@media screen and (max-width: 768px) {
+    .callout.large {
+        flex-direction: column;
+    }
+    .logo-wrapper {
+        margin: 0 auto;
+    }
+    .callout.large .row {
+        margin-top: 0 !important;
+    }
+    .row.column.text-center h1 {
+        font-size: 2rem !important;
+        margin-top: 0 !important;
+    }
+    .front p {
+        font-size: 1.5rem !important;
+    }
+    .back p {
+        font-size: 1.3rem !important;
+    }
+    .row.column h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+.row.column.text-center h1 {
+    font-size: 4rem;
+    margin-top: 4.5rem;
+}
 @media screen and (max-width: 64rem) {
     .front .inner p {
         font-size: 1.5rem;
