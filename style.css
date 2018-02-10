@@ -2730,7 +2730,6 @@ select[multiple] {
 }
 .callout {
   position: relative;
-  padding: 1rem;
   border: 1px solid hsla(0, 0%, 4%, 0.25);
   border-radius: 0;
   background-color: #000;
@@ -2766,7 +2765,6 @@ select[multiple] {
   padding: 0.5rem;
 }
 .callout.large {
-  padding: 1.5rem 3rem 3rem 3rem;
   background-position: center;
   display: flex;
 }
@@ -3983,8 +3981,6 @@ html.is-reveal-open body {
 }
 .row.column.text-center {
   color: white;
-  padding: 3rem 0;
-  background-color: gray;
 }
 .slider {
   position: relative;
