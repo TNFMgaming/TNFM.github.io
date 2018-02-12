@@ -6,6 +6,23 @@ html {
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
 }
+@media screen and (max-width: 39.9375rem) {
+    .logo {
+        height: 200px;
+    }
+    #new-id1 {
+        margin-top: 0;
+    }
+    .medium-6.columns.medium-push-6 h2 {
+        font-size: 2rem;
+    }
+    .medium-6.columns.medium-pull-6 h2 {
+        font-size: 2rem;
+    }
+    #row {
+        margin-top: 0
+    }
+}
 .medium-6.columns.medium-push-6 h2 {
     text-align: center
 }
