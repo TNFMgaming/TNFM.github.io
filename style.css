@@ -75,12 +75,13 @@ html {
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
-}
-.social-list {
     display: flex;
+    justify-content: center;
+}
+.social-wrapper ul {
+  width: 100%;
 }
 .social-list li {
-    width: 25%;
     padding: 3rem 0;
     text-align: center;
 }
@@ -93,6 +94,7 @@ html {
 }
 .social-wrapper li {
   text-decoration: none;
+  width: 33.33%
 }
 .cols {
   display: -webkit-box;
