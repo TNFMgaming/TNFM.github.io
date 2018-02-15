@@ -71,6 +71,9 @@ html {
 .middle-row-wrapper {
   padding: 1rem 0;
 }
+.social-list {
+  display: flex;
+}
 .social-wrapper {
     max-width: 75rem;
     margin-left: auto;
