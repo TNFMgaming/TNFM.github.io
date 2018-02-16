@@ -2794,7 +2794,7 @@ select[multiple] {
   position: relative;
   border: 1px solid hsla(0, 0%, 4%, 0.25);
   border-radius: 0;
-  background-color: #000;
+  background-color: #721817;
   color: #fff;
 }
 .callout > :first-child {
