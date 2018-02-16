@@ -2793,7 +2793,8 @@ select[multiple] {
 }
 .callout {
   position: relative;
-  border: 1px solid hsla(0, 0%, 4%, 0.25);
+  border: 1px solid #e0e0e2;
+  border-bottom: 6px solid #e0e0e2 !important;
   border-radius: 0;
   background-color: #0b6e4f;
   color: #fff;
