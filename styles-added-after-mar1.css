@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+@media screen and (min-width: 768px) {
+    .inner {
+        padding: 2rem;
+    }
+}
+.inner {
+    padding: .5rem;
+}
