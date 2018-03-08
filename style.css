@@ -2828,7 +2828,7 @@ select[multiple] {
 }
 .callout.large {
   background-position: center;
-  display: flex;
+  width: 100%;
 }
 .close-button {
   position: absolute;
