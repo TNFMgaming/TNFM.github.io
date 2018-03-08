@@ -88,8 +88,8 @@ p, h2, h3, a {
   width: 100%;
 }
 .social-list li {
-    padding: 3rem 0;
     text-align: center;
+    line-height: 80px;
 }
 .social-list a {
     color: black;
