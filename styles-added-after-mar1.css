@@ -41,6 +41,28 @@
 }
 
 @media screen and (max-width: 768px) {
+    .nav-menu-wrapper {
+        margin: 0 auto;     
+    }
+    .nav-menu li {
+        margin: 0;
+        width: 33%;
+        text-align: center;
+    }
+    .nav-menu a {
+        background-color: #2b4162;
+        border: 4px solid #e0e0e2;
+        padding: 8px 10px;
+        transition: all 0.3s ease;
+    }
+    .nav-menu a:hover {
+        background-color: #e0e0e2;
+        border: 4px solid #2b4162;
+        color: #0b6e4f !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .nav-menu {
         display: flex;
         justify-content: center;
