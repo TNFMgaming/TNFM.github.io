@@ -125,3 +125,6 @@ ul {
     height: 200px;
     width: 350px;
 }
+.thumbnail {
+    box-shadow: 0 5px 21px #e0e0e2;
+}
