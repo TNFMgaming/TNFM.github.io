@@ -121,3 +121,7 @@ ul {
     display: flex;
     justify-content: center;
 }
+.medium-4.columns img {
+    height: 200px;
+    width: 350px;
+}
