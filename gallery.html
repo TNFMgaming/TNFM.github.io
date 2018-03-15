@@ -10,7 +10,59 @@
   </head>
   <body>
 
+  <style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<body>
 
+<div class="w3-container">
+  <h2>Slideshow Indicators</h2>
+  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+</div>
+
+<div class="w3-content w3-display-container" style="max-width:800px">
+  <img class="mySlides" src="https://images-eds-ssl.xboxlive.com/image?url=MSVnmBUo_fHjbLYMjAEUQ7jpZDVN2u6Zk9G1CFEaF7foyeb9vHXW1jCDjRAUQwSfqMGiRETzrucxfkYZFtVyaUGeIyVDUJVStBG8fSvw.RriM34hmUz.lMyz92j4HLHI_61kQoB6vcJcMfcsilEE02KyNP05_yBE8uiq8CGWv4Y.tuu4O7HG6GGxB8b0b.W7G3sO0KXDDrMTN9Tv04pGwKiJryYCfo3e4G0shhdE6uLzQqDFb.ejWLERotMiNA7i7BrWR57Ya5d_R.E1LlxMw3apo1cA0u5lILu9ir7BEx8-&h=1350&w=1350" style="width:100%">
+  <img class="mySlides" src="https://images-eds-ssl.xboxlive.com/image?url=MSVnmBUo_fHjbLYMjAEUQ1997NqViwRuhp37ECgBmpjTopc.v25oEq7FlZ81jsccsTGth1U48YeMr4SvRMqEC3nuPbZYbF5RPIe.WuM8C6r6g9F6onp7li3QhXpkU0KVONMEhSCwL4e.FtFNw7gtHpEWyCu11QIfJalIxw4ZaTdJiABv2mxNaEm4JJxaS_VxBQxDU2_D6f3w8UDj0R2a9_bdhpGlenTczSiX1qDD2QEy9fjuZNeOJt6Z1QFNAr_od7qherAWbzLbv0Yxjym.wWbQHd4zbQ2Apd.kfg5eROc-&h=1350&w=1350" style="width:100%">
+  <img class="mySlides" src="https://images-eds-ssl.xboxlive.com/image?url=MSVnmBUo_fHjbLYMjAEUQ9p3KJ8facPMGNbTmRaQX3BYhvllmwlGGyxl833tqtT_vTexW63aIsDabCybaSuZ5q5GeY.31V.s8GrlFwNfUSgpumji4nZP8zPxjZBGYOkAjt16eGpTCLYdANGZn1CKNVzalfM7VL38L276_pOVl7TMdK0_6QyQEp4SnfUY8_f5EiuOKKaZUuGg4NaxlG9TYIxYOvcUk4qj4C6tdaGJwi_.0b73.n8lQJEWEvnVInv3bgFTie3wIALyU.wVGGw9po2ohvsYuuywH7GCHOen3aQ-&h=1350&w=1350" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
 
     <div class="callout large">
       <div class="logo-wrapper">
