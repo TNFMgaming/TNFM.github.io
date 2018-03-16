@@ -231,7 +231,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
 @media screen and (max-width: 768px) {
-    .w3-display-bottomleft.w3-large.w3-container.w3-padding-16.w3-black {
+    .w3-display-bottomleft.w3-large.w3-container.w3-padding-16.w3-black, .w3-display-topleft.w3-large.w3-container.w3-padding-16.w3-black, .w3-display-bottomright.w3-large.w3-container.w3-padding-16.w3-black, .w3-display-topright.w3-large.w3-container.w3-padding-16.w3-black {
         font-size: 12px !important;
         padding: 0 !important;
         padding: 8px !important;
