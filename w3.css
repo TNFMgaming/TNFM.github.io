@@ -236,4 +236,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
         padding: 0 !important;
         padding: 8px !important;
     }
+    .w3-content.w3-display-container {
+        max-width: 700px;
+        margin: 0 8px;
+    }
+}
+.w3-content.w3-display-container {
+    max-width: 700px;
 }
